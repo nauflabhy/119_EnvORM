@@ -15,6 +15,11 @@ const production = {
   dialectOptions: {
     ssl: {
       rejectUnauthorized: false,
-    },
-  },
+    }
+  }
+};
+
+module.exports = {
+  development,
+  production
 };
